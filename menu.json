@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "action_name": "Load Post Data (URL/Local CSV)",
+            "desc": "Load post data using a local csv file or a url.",
+            "func_name": "load_frame"
+        },
+        {
+            "action_name": "Manage Keywords",
+            "desc": "Manage the list of blocked keywords.",
+            "func_name": "manage_keywords"
+        },
+        {
+            "action_name": "Scan and Analyze Posts",
+            "desc": "Perform analysis on the loaded post data.",
+            "func_name": "analyze_data"
+        },
+        {
+            "action_name": "Generate a Filtered Report",
+            "desc": "Creates a new CSV file with the filtered data based on the blocked keywords",
+            "func_name": "gen_report"
+        },
+        {
+            "action_name": "Exit",
+            "desc": "Exit the program.",
+            "func_name": "exit_program"
+        }
+    ]
+}
